@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.header1{
+    width: 100%;
+    height: 4rem;
+    /* background-color: rgb(157, 157, 212); */
+    display: flex;
+}
+
+/* header div no. 1 */
+
+
+.header1>:nth-of-type(1){
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header1>:nth-of-type(1)>span{
+ font-size: 20px;
+ font-weight: bolder;
+ color: #00008B;
+
+}
+
+
+/* header div no. 2 */
+.header1>:nth-of-type(2){
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header1>:nth-of-type(2)>ul li{
+   width: 110px;
+   height: 100%;
+   float: left;
+   list-style-type: none;
+  
+}
+.header1>:nth-of-type(2)>ul li>a{
+   text-decoration: none;
+   color: rgb(53, 42, 42);
+  
+}
+
+/* header div no. 3 */
+
+.header1>:nth-of-type(3){
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header1>:nth-of-type(3)> .icondiv{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(204, 202, 202);
+    border-radius: 6px;
+    margin-left: 5px;
+    padding: 5px;
+}
+/* Main Pic */
+.mainpic{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/Groceries-ThinkstockPhotos-836782690.jpg);
+    background-size: cover;
+    text-align: center;
+   
+}
+ h1{
+    color: #fff;
+    font-size: 40px;
+}
+.mainpic h2{
+    color: #fff;
+}
+.mainpic span{
+    color: green;
+}
+
+marquee{
+   padding-right: 1000px;
+    padding-top: 100px;
+    width: 800px;
+}
+.shopnow{
+    width: 110px;
+    height: 35px;
+    border: 2px solid green;
+    position: relative;
+    left: 880px;
+    top: 30px;
+}
+.shopnow h3{
+    color: #fff;
+}
+/* Section */
+.latestproduct{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(181, 181, 245);
+    display: flex;
+    justify-content: center;
+}
+.lpmaindiv{
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.lpmaindiv .div03{
+    width: 100%;
+    height: 2rem;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+}
+.lpmaindiv span{
+font-size: 25px;
+font-weight: bolder;
+}
+.div07{
+    width: 100%;
+    height: 970px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* product div */
+.div07 .divbox{
+    width: 30%;
+    height: 450px;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div07 .divbox .div09{
+    width: 96%;
+    height:96% ;
+    border: 2px solid #00008B;
+    background-color: #fff;
+    display: block;
+}
+
+.div07 .divbox .div09 .div10{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+   
+    background-size: cover;
+
+}
+.div07 .divbox .div09 .div10 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.div07 .divbox .div11{
+    width: 100%;
+    height: 30%;
+ /* margin: 10px 150px; */
+ text-align: center;
+}
+
+.div07 .divbox .div11 button{
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 3px solid green;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer*/
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+.last{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    color: blue;
+}
+.bttn:hover{
+    background-color: green;
+    color: white;
+
+    
+    
+}
+.user{
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.add{
+    display: flex;
+    margin-top: 10px;
+}
+.card{
+    height: 30px;
+    width: 40px;
+    background-color: aqua;
+    color: white;
+    background-image: url(image/full-color-800x450-cee226a48bed4177b90351075b332227.jpg);
+    background-size: cover;
+}
+.card1{
+    height: 30px;
+    width: 40px;
+    background-color: blue;
+    margin-left: 10px;
+    background-image: url(image/mastercard-icon-512x329-xpgofnyv.png);
+    background-size: cover;
+
+}
+.card2{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(52, 178, 228);
+    margin-left: 10px;
+    background-image: url(image/4-you-might-not-notice-amex-new-brand.webp);
+    background-size: cover;
+
+
+}
+.card3{
+    height: 30px;
+    width: 40px;
+    background-color: darkblue;
+    margin-left: 10px;
+background-image: url(image/download.png);
+background-size: cover;
+
+}
+.last input{
+    width: 160px;
+    border-radius: 6px;
+}
+.last button{
+    width: 160px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+}
+.last button span{
+    color: #fff;
+}
+li:hover{
+    transform: translate(20px,0);
+}
